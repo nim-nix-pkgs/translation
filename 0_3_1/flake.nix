@@ -1,5 +1,5 @@
 {
-  description = ''Text string translation from free online crowdsourced API. Tinyslation a tiny translation.'';
+  description = ''Text string translation from free online crowdsourced API. Tinyslation a tiny translation. Sync and Async support (MultiSync). No API Key required.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-translation-0_3_1.flake = false;
   inputs.src-translation-0_3_1.owner = "juancarlospaco";
-  inputs.src-translation-0_3_1.ref   = "refs/tags/0.3.1";
+  inputs.src-translation-0_3_1.ref   = "0_3_1";
   inputs.src-translation-0_3_1.repo  = "nim-tinyslation";
   inputs.src-translation-0_3_1.type  = "github";
   
