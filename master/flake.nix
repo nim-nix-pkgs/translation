@@ -11,6 +11,7 @@
   inputs.src-translation-master.ref   = "refs/heads/master";
   inputs.src-translation-master.owner = "juancarlospaco";
   inputs.src-translation-master.repo  = "nim-tinyslation";
+  inputs.src-translation-master.dir   = "";
   inputs.src-translation-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
